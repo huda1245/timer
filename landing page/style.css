@@ -1,0 +1,158 @@
+*{margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ font-family: 'Kanit', sans-serif;
+ }
+ 
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/sale\ 2.jfif);
+    background-size: cover;
+}  
+nav{
+        width: 100%;
+        height: 15vh;
+        background-color: rgb(241, 245, 248);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+    
+    }
+    .logo{
+        width: 25%;
+        text-align: center;
+        height: 40px;
+    
+    }
+    .menu{
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu a{
+        width: 25%;
+        text-decoration: none;
+        color: rgb(89, 51, 94);
+    }
+.content{
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.h4{
+    color: red;
+}
+.h5{
+    color: rgb(48, 80, 69);
+}
+.service{
+    background-color: whitesmoke;
+    width: 100%;
+    padding:100px 0px ;
+}
+.title h2{
+    font-size: 75px;
+    width: 1200px;
+    margin: 30px;
+    text-align: center;
+    color: rgb(2, 2, 2);
+}
+.box{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335;
+    padding:25px 35px ;
+    background-color: rgb(22, 22, 126);
+    border: radius 20px; ;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+}
+.card i{
+    font-size: 50px;
+    display:block ;
+    text-align:center ;
+    margin:20px ;
+    color:rgb(209, 17, 17);
+}
+.head{
+       color: white;
+       margin-bottom: 15px;
+       font-size: 23px;
+}
+.para{
+    color: bisque;
+}
+.new{
+    width:100% ;
+    padding: 100px;
+    background-color: aliceblue;
+
+}
+.new img{
+    width: 430px;
+    height: auto;
+}
+.main{
+   justify-content: space-around;
+   display: flex;
+   width: 1130px;
+   max-width: 95%;
+   margin: 0 auto;
+   align-items: center;
+
+}
+.new text{
+    width: 550px;
+}
+.wow{
+    color: brown;
+}
+.pro h2{
+    
+    font-size: 75px;
+    width: 1200px;
+    margin: 30px;
+    text-align: center;
+    color: rgb(224, 17, 17);
+}
+.denim{
+    width: 20%;
+    height: auto;
+    align-items: center;
+}
+.depr{
+    width: 20%;
+    height: auto;
+    align-items: center;
+}
+.shirt{
+    width: 20%;
+    height: auto;
+    align-items: center;
+}
+.shpr{
+    width: 20%;
+    height: auto;
+    align-items: center;
+}
+.pant{
+    width: 30%;
+    height: auto;
+    align-items: center;
+}
+.ptpr{
+    width: 20%;
+    height: auto;
+    align-items: center;
+}

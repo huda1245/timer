@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ header{
+     height: 100vh;
+     width: 100vw;
+     /* background-image: url(./images/Microsoft\ -\ Home\ Page.png ) ;
+     background-size: contain; */
+ }
+ nav{
+     
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+      background-color: rgb(255, 255, 255);
+ }
+
+ .logo{
+    width: 30%;
+    text-align: center;
+    height: px;
+
+}
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    height: 10px;
+    font-size: small;
+}
+.menu a{
+    width: 60%;
+    text-decoration: none;
+    color: rgb(124, 119, 124);
+    height: px;
+    justify-content:space-around;
+    display: flex;
+    text-decoration: none;
+    font-size: small;
+}
+.icons{
+    width: 20%;
+    color: rgb(141, 140, 141);
+    text-decoration: none;
+}
+.icons a{
+width: 15%;
+text-decoration: none;
+color: rgb(141, 140, 141);
+font-size: small;
+display: inline;
+justify-content: space-around;
+
+}
+.main img{
+    height: 400px;
+    width: 82.5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+.maincontent p{
+    background-color: #ffb900;
+    color: black;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    transform: translateY(-50%);
+    align-items: center;
+    font-size: 15px;
+  margin: 20px;
+   line-height: 1.5em;
+   overflow: hidden;
+   padding: 9px;
+}
+.maincontent h1{
+    color: whitesmoke;
+    position: absolute;
+    left: 11%;
+    top: 28%;
+    transform: translateY(0%);
+    font-size: 20px;
+}
+.maincontent h6{
+    color: whitesmoke;
+    position: absolute;
+    left: 11%;
+    top: 34%;
+    transform: translateY(0%);
+    font-size: 14px;
+}
+
+   div.gallery {
+    margin: 20px;
+    border: 0px solid #ccc;
+    float: left;
+    width: 290px;
+    padding: 20px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 5px;
+    text-align: center;
+    left: 2px;
+  }
+  div.h3{
+      text-align: center;
+      padding: 30px;
+  }
+  .a a{
+      text-align: center;
+      top: 100%;
+      text-decoration: none;
+      color: rgb(11, 88, 165);
+      margin: 4%;
+      padding: 30px;
+  }
+  .b a{
+    text-align: center;
+    top: 80%;
+    text-decoration: none;
+    color: rgb(11, 88, 165);
+    margin: 0%;
+    padding: 25px;
+}
+  .prs a{
+      text-align: center;
+margin: 2%;
+padding: 40px;
+text-decoration: none;
+color: rgb(11, 88, 165);
+
+  }
+
+  div.a:hover{
+    text-align: center;
+    top: 100%;
+    text-decoration: underline;
+    color: rgb(141, 162, 182);
+    margin: 2%;
+}
+
+.mainpage img{
+    height: 400px;
+    width: 85.5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+.maindes h1{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 11%;
+    top: 168%;
+    transform: translateY(0%);
+    font-size: 25px;
+    padding: 5px;
+}
+.maindes h6{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 13%;
+    top: 175%;
+   
+    font-size: 14px;
+    padding: 5px;
+}
+.container{
+    background-color: #ccc;
+    height: 190px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2%;
+    padding: 10px;
+}
+.container h1{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 30%;
+    top: 282%;
+    transform: translateY(100%);
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+}
+.container p{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 27%;
+    top: 292%;
+    transform: translateY(100%);
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+}
+.container a{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 45%;
+    top: 299%;
+    transform: translateY(100%);
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.container a:hover{
+    text-align: center;
+    top: 100%;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    margin: 2%;
+}
+/* .continer{
+    background-color: #ccc;
+    height: 250px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2%;
+    padding: 10px;
+} */
+.footer{
+  margin-top:  2%;
+    background-color: #e9e6e6;
+    padding: 100px;
+    height: 500px;
+   
+}
+.footermenu h3{
+        font-size: 14px;
+        color: rgba(0,0,0,.5);
+        margin-bottom: 1%;
+}
+.footermenu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.footermenu ul li a{
+    font-size: 12px;
+    line-height: 36px;
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+}
+.footermenu{
+    float: left;
+    width: 16%;
+}
+.footermenu ul li a:hover{
+    font-size: 12px;
+    line-height: 36px;
+    color: rgba(0,0,0,.5);
+    text-decoration: underline;
+}
+.half a{
+    width: 100%;
+    float: left;
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+    align-items: left;
+    text-align: bottom;
+    justify-content: space-around;
+    top: 500%;
+    font-size: 12px;
+}
+.half a:hover{
+    font-size: 12px;
+    line-height: 36px;
+    color: rgba(0,0,0,.5);
+    text-decoration: underline;
+}
+.end a{
+    width: 80%;
+   text-align: left;
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+     left: 50%;
+    justify-content:left;
+    top: 600%;
+    font-size: 12px;
+    display: flex;
+    align-items: left;
+   transform: translateY(10%);
+   transform: translateX(70%);
+   word-spacing: 0.5em;}
+
+
+.end a:hover{
+    font-size: 12px;
+    line-height: 36px;
+    color: rgba(0,0,0,.5);
+    text-decoration: underline;
+}
